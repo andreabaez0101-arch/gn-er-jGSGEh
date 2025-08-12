@@ -1,0 +1,1 @@
+worker: python oxcyshop_discord_bot_security.py
