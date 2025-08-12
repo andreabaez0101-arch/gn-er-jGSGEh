@@ -10,7 +10,7 @@ import aiohttp
 WEBHOOK_URL = "https://discord.com/api/webhooks/1404204136488112218/KIBPV7UHU78G7Xp8bgaydK6g46Bd7C6KQXdZEta-q7YT3e8DwAY_rWNz8vc0eJN_eCuE"
 ALLOWED_GUILDS = {1286045119715475527}  # Pon aquí los IDs de servidores donde puede entrar el bot
 
-TOKEN = ""
+TOKEN = "MTQwMzkxNjQ3NjE4Mzg3NTU5NA.GY3QY2.EsiFauzuu0fxkNh8pQfz_lVdQ2fYJDeeXhfN0Y"
 if not TOKEN:
     raise SystemExit("Falta el token de Discord")
 
@@ -360,3 +360,4 @@ async def on_message(message: discord.Message):
 
 if __name__ == "__main__":
     bot.run(TOKEN)
+
